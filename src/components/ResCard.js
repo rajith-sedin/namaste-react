@@ -1,7 +1,6 @@
 
 
 const ResCard = ({ resName, cusine, deliveryTime, rating, img }) => {
-    console.log("resname",resName)
     return (
       <div className='res-card'>
         <div className='res-logo'>
