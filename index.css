@@ -88,29 +88,29 @@
 }
 
 .res-cards-container {
-  display: flex; /* Display the cards side by side */
-  flex-wrap: wrap; /* Allow wrapping if the width is not enough */
-  margin: 20px; /* Counteract the margin added to individual ResCard components */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap as needed */
+  margin-top: 20px; /* Adjust the margin as needed */
 }
 
-/* Existing CSS */
 
-/* ... */
-
-/* Add styles for the ResCard component */
 .res-card {
-  display: flex;
   align-items: center;
   padding: 10px;
   border: 1px solid #444040;
   border-radius: 8px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   margin: 10px;
-  background-color: lightslategrey;
+  background-color: lightcyan;
+  height: 250px;
 }
 
 .res-logo img {
   width: 100px;
+  align-items: center;
   height: 100px;
   border-radius: 50%;
 }
@@ -132,6 +132,5 @@
   margin: 5px 0;
 }
 
-/* ... */
 
 
