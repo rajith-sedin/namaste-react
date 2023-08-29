@@ -1,19 +1,19 @@
+const ResCard = ({ resData }) => {
+  const { img, name, cusine, rating, deliveryTime } = resData;
 
-
-const ResCard = ({ resName, cusine, deliveryTime, rating, img }) => {
-    return (
-      <div className='res-card'>
-        <div className='res-logo'>
-          <img src={img} alt='Restaurant Logo' />
-        </div>
-        <div className='res-info'>
-          <h3 className='res-name'>{resName}</h3>
-          <p className='res-cuisine'>{cusine}</p>
-          <p className='res-rating'>{rating}</p>
-          <p className='res-delivery'>{deliveryTime}</p>
-        </div>
+  return (
+    <div className='res-card'>
+      <div className='res-logo'>
+        <img src={img} alt='Restaurant Logo' />
       </div>
-    );
-  }
+      <div className='res-info'>
+        <h3 className='res-name'>{name}</h3>
+        <p className='res-cuisine'>{cusine}</p>
+        <p className='res-rating'>{rating}</p>
+        <p className='res-delivery'>{deliveryTime}</p>
+      </div>
+    </div>
+  );
+}
 
-  export default ResCard;
+export default ResCard;

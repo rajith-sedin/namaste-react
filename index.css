@@ -110,11 +110,12 @@
 }
 
 .res-logo img {
-  width: 100px;
-  align-items: center;
-  height: 100px;
-  border-radius: 50%;
+  width: 150px; /* Adjust the width */
+  height: 150px; /* Adjust the height */
+  border-radius: 50%; /* To make it a circular image */
+  object-fit: cover; /* Maintain image aspect ratio while covering the container */
 }
+
 
 .res-info {
   margin-left: 10px;
@@ -138,3 +139,30 @@
   cursor: pointer;
 }
 
+.shimmer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  background-color: #f0f0f0;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.search {
+  margin: 10px;
+}
+
+.body{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter {
+  margin: 10px;
+}
