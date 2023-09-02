@@ -14,7 +14,7 @@ const ResMenu = () => {
             <h4>Rating: {rating}</h4>
             <h4>Delivering in : {deliveryTime}</h4>
             <p>Menu</p>
-            <ul>
+            <ul className='menu-list'>
                 {itemLoop.map(((item,index) => <li key={index}>{item.name} - Rs {item.price}</li> ))}
             </ul>
         </div>

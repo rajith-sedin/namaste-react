@@ -3,11 +3,14 @@ import ResCard from "./ResCard";
 import { RES_NAMES } from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "../utils/useOnlineStatus";
+
 const Body = () => {
 
     const [filteredRestaurants, setFilteredRestaurants] = useState(RES_NAMES);
     const [rated,setRated] = useState(false)
     const [searchTxt,setSearchTxt] = useState("")
+    const onlineStatus = useOnlineStatus();
 
     // useEffect(()=>{
     //     fetchData()
@@ -40,6 +43,7 @@ const Body = () => {
         setFilteredRestaurants(filteredRes);
     };
     
+    if (onlineStatus === false) return (<h1>offline</h1>);
     return (
         filteredRestaurants.length === 0 ? <Shimmer/> :
         <div className="body">

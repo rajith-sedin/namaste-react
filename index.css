@@ -193,9 +193,20 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  list-style: none;
+}
+
+.menu-list {
+  list-style: none;
 }
 
 .user-card {
   border: 1px solid #444040;
   border-radius: 8px;
+}
+
+.grocery {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
