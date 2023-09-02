@@ -4,137 +4,299 @@ export const RES_NAMES=[
           "cards": [
             {
               "card": {
+                "id":1,
                 "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_h9jnbbU68EkTUiiSi1ETNwCf60_AztCALY5dmyJW-dIrOLbKGuqhbTBUjOVk6_N3-lw&usqp=CAU",
                 "name": "Renuka Foods",
-                "cusine": "Italian",
+                "cusine": ["Andhra","South Indian"],
                 "rating": 4.8,
-                "deliveryTime": "30 mins"
+                "deliveryTime": "30 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":2,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/yheal0ldgbdwqw9gz3uu",
                 "name": "Dominos",
                 "cusine": "Indian",
                 "rating": 4.5,
-                "deliveryTime": "40 mins"
+                "deliveryTime": "40 mins",
+                "menu": [
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":3,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bdcd233971b7c81bf77e1fa4471280eb" ,
                 "name": "KFC",
                 "cusine": "Chinese",
                 "rating": 4.2,
-                "deliveryTime": "25 mins"
+                "deliveryTime": "25 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":4,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_264,h_288,c_fill/hfyi3cfcxqzoncwjgetz" ,
                 "name": "Mc Donalds",
                 "cusine": "Mexican",
                 "rating": 3.9,
-                "deliveryTime": "35 mins"
+                "deliveryTime": "35 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":5,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/i4r9oimardtkyucxbqhe",
                 "name": "Khalids Biriyani",
                 "cusine": "Thai",
                 "rating": 4.7,
-                "deliveryTime": "28 mins"
+                "deliveryTime": "28 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":6,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xocwivmafwt6hnndohfx",
                 "name": "Andhra Mess",
                 "cusine": "Japanese",
                 "rating": 4.3,
-                "deliveryTime": "33 mins"
+                "deliveryTime": "33 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":7,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/fneygex8x4wju29hnuhe",
                 "name": "Cafe Coffee Day",
                 "cusine": "American",
                 "rating": 4.6,
-                "deliveryTime": "45 mins"
+                "deliveryTime": "45 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":8,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/bj6hfssmc73ax3w2hff0",
                 "name": "Al-daaz",
                 "cusine": "Mediterranean",
                 "rating": 4.4,
-                "deliveryTime": "30 mins"
+                "deliveryTime": "30 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":9,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/sn4bp1weysb5tvm72jjj",
                 "name": "Old Mirchi Biriyani",
                 "cusine": "Korean",
                 "rating": 4.2,
-                "deliveryTime": "38 mins"
+                "deliveryTime": "38 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":10,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/dca0a8e77546906e66c840deb23914c1",
                 "name": "Guntur Gongura Biriyani",
                 "cusine": "Mexican",
                 "rating": 4.1,
-                "deliveryTime": "32 mins"
+                "deliveryTime": "32 mins",
+                "menu": [
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":11,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/s4qnhqfmbidc77n7hses",
                 "name": "Mani's Dum Biriyani",
                 "cusine": "Italian",
                 "rating": 4.9,
-                "deliveryTime": "20 mins"
+                "deliveryTime": "20 mins",
+                "menu": [
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 },
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":12,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/b15a2367ff3d6f0bf92d1def3c1e5c59",
                 "name": "Nandhana Palace",
                 "cusine": "Indian",
                 "rating": 4.7,
-                "deliveryTime": "42 mins"
+                "deliveryTime": "42 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 }
+                ]
               }
             },
             {
               "card": {
+                "id":13,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/992f217c2f122c0d8fc385855ca30722",
                 "name": "Nagarjuna Res",
                 "cusine": "Thai",
                 "rating": 4.4,
-                "deliveryTime": "26 mins"
+                "deliveryTime": "26 mins",
+                "menu": [
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                ]
               }
             },
             {
               "card": {
+                "id":14,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/o39lepu4xti5nyjhauor",
                 "name": "Kritunga Restaurant",
                 "cusine": "American",
                 "rating": 4.3,
-                "deliveryTime": "39 mins"
+                "deliveryTime": "39 mins",
+                "menu": [
+
+                  { "name": "Minestrone Soup", "price": 5.99 },
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                ]
               }
             },
             {
               "card": {
+                "id":15,
                 "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/9ae730c95d13d6e26bf0bc9d69119a38",
                 "name": "Bistro Cafe",
                 "cusine": "Greek",
                 "rating": 4.6,
-                "deliveryTime": "31 mins"
+                "deliveryTime": "31 mins",
+                "menu": [
+                  { "name": "Tiramisu", "price": 6.99 },
+                  { "name": "Cappuccino", "price": 4.49 },
+                  { "name": "Minestrone Soup", "price": 5.99 },
+                  { "name": "Margherita Pizza", "price": 12.99 },
+                  { "name": "Pasta Carbonara", "price": 10.49 },
+                  { "name": "Chicken Alfredo", "price": 14.99 },
+                  { "name": "Garlic Bread", "price": 3.99 },
+                  { "name": "Caesar Salad", "price": 8.99 },
+                ]
               }
             }
           ]
@@ -142,6 +304,8 @@ export const RES_NAMES=[
       }
       
 ]
+
+
 
 // export const resData = [
 //     {
