@@ -1,15 +1,14 @@
-import React from 'react'
-import { useRouteError } from 'react-router-dom'
+import React from "react";
+import { useRouteError } from "react-router-dom";
 const Error = () => {
-    const err = useRouteError()
-    console.log(err)
+  const err = useRouteError();
   return (
-    <div className='error'>
+    <div className="error">
       <h1>please use valid path</h1>
       <h2>{err.data}</h2>
       <h2>{err.status}</h2>
     </div>
-  )
-}
+  );
+};
 
-export default Error
+export default Error;

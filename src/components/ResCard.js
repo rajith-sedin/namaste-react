@@ -1,25 +1,21 @@
 import React from "react";
+import { IMG_URL } from "../utils/constants";
 
-const ResCard = ({ resData }) => {
-  const { img, name, cusine, rating, deliveryTime } = resData;
-
+const ResCard = ({ info }) => {
+  const { name, costForTwo, cuisines, locality, cloudinaryImageId, id } = info;
   return (
-    <div className="rounded-xl flex flex-col items-center m-4 p-4 w-[250px] border border-solid border-black bg-slate-200">
-      <div className="flex flex-col items-center">
+    <div className="rounded-3xl m-4 w-72">
+      <div className=" rounded-xl justify-center items-center border border-solid border-black bg-slate-200">
         <img
-          className="rounded-lg h-[200px] w-[200px]"
-          src={img}
-          alt="Restaurant Logo"
+          className="rounded-3xl w-40  h-40 pl-[60px]"
+          src={IMG_URL + cloudinaryImageId}
+          alt={name}
         />
-        <div className="text-center">
-          <h3 className="font-bold py-2 text-lg">{name}</h3>
-          {Array.isArray(cusine) ? (
-            <p className="res-cuisine">{cusine.join(", ")}</p>
-          ) : (
-            <p className="res-cuisine">{cusine}</p>
-          )}
-          <p className="res-rating">{rating}</p>
-          <p className="res-delivery">{deliveryTime}</p>
+        <div className="p-4">
+          <h3 className="font-bold text-lg">{name}</h3>
+          <p className="text-gray-600">{cuisines.join(", ")}</p>
+          <p className="text-gray-600">Location: {locality}</p>
+          <p className="text-gray-600">{costForTwo}</p>
         </div>
       </div>
     </div>
