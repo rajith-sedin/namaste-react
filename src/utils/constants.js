@@ -37,3 +37,14 @@ export const IMG_URL =
 
 export const MENU_URL =
   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.957216&lng=80.24188989999999&restaurantId=";
+
+// Function to format time in 24-hour format
+
+export const formatTime = (timeString) => {
+  const date = new Date(timeString);
+  return date.toLocaleTimeString("en-US", {
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: true,
+  });
+};

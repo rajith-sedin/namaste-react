@@ -2,7 +2,6 @@ import React from "react";
 import { IMG_URL } from "../utils/constants";
 
 const ResCard = ({ info }) => {
-  console.log(info);
   const {
     name,
     costForTwo,
@@ -16,6 +15,11 @@ const ResCard = ({ info }) => {
   } = info;
   return (
     <div className="rounded-3xl m-4 w-72">
+      {promoted ? (
+        <label className="absolute bg-black text-white m-2 p-2 rounded-lg">
+          Promoted
+        </label>
+      ) : null}
       <div className=" rounded-xl justify-center items-center border border-solid border-black bg-slate-200">
         <img
           className="rounded-3xl w-40  h-40 pl-[60px]"
@@ -30,7 +34,6 @@ const ResCard = ({ info }) => {
           <p className="text-gray-600">{cuisines.join(", ")}</p>
           <p className="text-gray-600">Location: {locality}</p>
           <p className="text-gray-600">{costForTwo}</p>
-          {promoted ? <label>Promoted</label> : null}
         </div>
       </div>
     </div>
