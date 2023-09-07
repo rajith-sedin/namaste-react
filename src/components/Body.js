@@ -19,9 +19,9 @@ const Body = () => {
     }
   }, [data]);
 
-  const handleSearch = () => {
-    console.log("search functionality");
-  };
+  // const handleSearch = () => {
+  //   console.log("search functionality");
+  // };
 
   // const handleTopRated = () => {
   //   const topRatedRestaurants = data.slice(3).filter((restaurant) => {

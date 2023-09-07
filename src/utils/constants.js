@@ -38,6 +38,12 @@ export const IMG_URL =
 export const MENU_URL =
   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=12.957216&lng=80.24188989999999&restaurantId=";
 
+export const ITEM_URL =
+  "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/";
+
+export const DEFAULT_ITEM_IMG =
+  "https://media.istockphoto.com/id/1005990944/vector/dish-icon-vector-icon-simple-element-illustration-dish-symbol-design-can-be-used-for-web-and.jpg?s=170667a&w=0&k=20&c=Y7WtorulQ2rf4if0yUpfdIbj-w6TSdimhpg_cebGivE=";
+
 // Function to format time in 24-hour format
 
 export const formatTime = (timeString) => {
