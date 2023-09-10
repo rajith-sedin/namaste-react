@@ -10,8 +10,6 @@ const Body = () => {
 
   const data = useFetchData();
   const [filterRes, setFilterRes] = useState([]);
-  console.log("data", data);
-  console.log("filter", filterRes);
 
   useEffect(() => {
     if (data.length > 0) {

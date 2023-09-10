@@ -44,6 +44,12 @@ export const ITEM_URL =
 export const DEFAULT_ITEM_IMG =
   "https://media.istockphoto.com/id/1005990944/vector/dish-icon-vector-icon-simple-element-illustration-dish-symbol-design-can-be-used-for-web-and.jpg?s=170667a&w=0&k=20&c=Y7WtorulQ2rf4if0yUpfdIbj-w6TSdimhpg_cebGivE=";
 
+export const VEG_IMG =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThcrjJrSsELQXtu0dpkhVzWZcA4D2lEpqvbQ&usqp=CAU";
+
+export const NONVEG_IMG =
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRYteGPinx4N697CzQh72N0wcLprAcv2BOxw&usqp=CAU";
+
 // Function to format time in 24-hour format
 
 export const formatTime = (timeString) => {
